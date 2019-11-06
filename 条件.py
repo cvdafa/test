@@ -1,6 +1,10 @@
-age = 16
-if age >= 18:
-    print('是成年人')
-if age <= 18:
-    print('是未成年人')
-print('年龄是：', age)
+age = 20
+if age >= 6:
+    print('teenager')
+elif age >= 18:
+    print('adult')
+else:
+    print('年龄是：', age)
+
+if ['a', 'w']:
+    print('true')
